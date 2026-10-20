@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        .container{
+            background-color: midnightblue;
+            height: 700px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            background-color: lightsalmon;
+            height: 200px;
+        }
+
+        @media(max-width:800px){
+            .card{
+                background-color: darkred;
+                font-size: xx-large;
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">amnad</div>
+        <div class="card">amnad</div>
+        <div class="card">amnad</div>
+        <div class="card">amnad</div>
+        <div class="card">amnad</div>
+        <div class="card">amnad</div>
+    </div>
+</body>
+</html>
